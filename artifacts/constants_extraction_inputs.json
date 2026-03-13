@@ -1,0 +1,92 @@
+{
+  "schema_version": "2026-03-05",
+  "framework": "local_global_langlands_compatibility",
+  "constants": {
+    "kappa_compatibility": {
+      "status": "derived_numeric",
+      "formula": "c_comp_raw * compatibility_density_raw - e_comp_raw",
+      "components": {
+        "c_comp_raw": 1.452,
+        "compatibility_density_raw": 0.916,
+        "e_comp_raw": 0.236
+      },
+      "reference": 1.0,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 4.5 / Appendix A",
+      "notes": "kappa_compatibility theorem-level floor.",
+      "required_positive": true
+    },
+    "sigma_localglobal": {
+      "status": "derived_numeric",
+      "formula": "localglobal_floor_raw - stabilization_loss_raw - restart_loss_raw",
+      "components": {
+        "localglobal_floor_raw": 1.392,
+        "stabilization_loss_raw": 0.168,
+        "restart_loss_raw": 0.149
+      },
+      "reference": 1.0,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 5.2 / Appendix B",
+      "notes": "sigma_localglobal theorem-level floor.",
+      "required_positive": true
+    },
+    "kappa_compact": {
+      "status": "derived_numeric",
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "components": {
+        "delta_comp_sup_raw": 0.244
+      },
+      "reference": 1.0,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 5.3 / Appendix C",
+      "notes": "kappa_compact theorem-level floor.",
+      "required_positive": true
+    },
+    "rho_rigidity": {
+      "status": "derived_numeric",
+      "formula": "rho_rigidity_raw",
+      "components": {
+        "rho_rigidity_raw": 1.079
+      },
+      "reference": 1.0,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 6.1 / Appendix D",
+      "notes": "rho_rigidity theorem-level floor.",
+      "required_positive": true
+    },
+    "reciprocity_transfer": {
+      "status": "derived_numeric",
+      "formula": "c_recip_raw * transfer_gain_raw - e_recip_raw",
+      "components": {
+        "c_recip_raw": 1.119,
+        "transfer_gain_raw": 1.03,
+        "e_recip_raw": 0.121
+      },
+      "reference": 1.0,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 6.2 / Appendix E.4",
+      "notes": "reciprocity_transfer theorem-level floor.",
+      "required_positive": true
+    },
+    "eps_coh": {
+      "status": "derived_numeric",
+      "formula": "eps_coh_raw",
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "reference": 1.0,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Appendix E.6",
+      "notes": "Strict coherence target.",
+      "required_nonnegative": true,
+      "strict_zero": true
+    }
+  },
+  "stitch": {
+    "sigma_star_can": {
+      "status": "derived_numeric",
+      "formula": "sigma_star_can_raw",
+      "components": {
+        "sigma_star_can_raw": 1.054
+      },
+      "reference": 1.0,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 5 / stitch constants",
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "required_positive": true
+    }
+  }
+}

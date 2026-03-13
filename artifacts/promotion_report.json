@@ -1,0 +1,19 @@
+{
+  "extracted_source": "artifacts/constants_extracted.json",
+  "framework": "local_global_langlands_compatibility",
+  "generated_utc": "2026-03-13T05:27:33Z",
+  "promoted_constants": {
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8038585209003215,
+    "kappa_compatibility": 1.0940320000000001,
+    "reciprocity_transfer": 1.03157,
+    "rho_rigidity": 1.079,
+    "sigma_localglobal": 1.075
+  },
+  "promoted_stitch": {
+    "sigma_star_can": 1.054
+  },
+  "registry_path": "artifacts/constants_registry.json",
+  "schema_version": "2026-03-05",
+  "stitch_path": "artifacts/stitch_constants.json"
+}

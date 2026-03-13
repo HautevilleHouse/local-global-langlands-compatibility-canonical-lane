@@ -1,0 +1,171 @@
+{
+  "constants": {
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.244
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8038585209003215,
+      "notes": "kappa_compact theorem-level floor.",
+      "raw_value": 0.8038585209003215,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compatibility": {
+      "components": {
+        "c_comp_raw": 1.452,
+        "compatibility_density_raw": 0.916,
+        "e_comp_raw": 0.236
+      },
+      "formula": "c_comp_raw * compatibility_density_raw - e_comp_raw",
+      "normalized_value": 1.0940320000000001,
+      "notes": "kappa_compatibility theorem-level floor.",
+      "raw_value": 1.0940320000000001,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "reciprocity_transfer": {
+      "components": {
+        "c_recip_raw": 1.119,
+        "e_recip_raw": 0.121,
+        "transfer_gain_raw": 1.03
+      },
+      "formula": "c_recip_raw * transfer_gain_raw - e_recip_raw",
+      "normalized_value": 1.03157,
+      "notes": "reciprocity_transfer theorem-level floor.",
+      "raw_value": 1.03157,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.079
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.079,
+      "notes": "rho_rigidity theorem-level floor.",
+      "raw_value": 1.079,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_localglobal": {
+      "components": {
+        "localglobal_floor_raw": 1.392,
+        "restart_loss_raw": 0.149,
+        "stabilization_loss_raw": 0.168
+      },
+      "formula": "localglobal_floor_raw - stabilization_loss_raw - restart_loss_raw",
+      "normalized_value": 1.075,
+      "notes": "sigma_localglobal theorem-level floor.",
+      "raw_value": 1.075,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "local_global_langlands_compatibility",
+  "generated_utc": "2026-03-13T05:27:32Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "9128927b195b2732ddb55437eee2c1a632ea424018053738d228cecfb2c2ced8",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.054
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.054,
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "raw_value": 1.054,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/LOCAL_GLOBAL_LANGLANDS_COMPATIBILITY_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}
