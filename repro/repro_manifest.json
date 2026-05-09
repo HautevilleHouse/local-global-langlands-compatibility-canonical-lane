@@ -1,6 +1,6 @@
 {
   "schema_version": "2026-03-05",
-  "generated_utc": "2026-03-13T05:27:33Z",
+  "generated_utc": "2026-05-09T22:39:10Z",
   "lane": "manifold_constrained",
   "baseline_certificate_path": "repro/certificate_baseline.json",
   "runtime_certificate_path": "repro/certificate_runtime.json",
@@ -15,7 +15,7 @@
     },
     {
       "path": "artifacts/constants_extracted.json",
-      "sha256": "3fadf52ea90a2d47fb9557a85ddb00e2f917b81b509212598736342dde4bebc8"
+      "sha256": "fa0fdf3fa305ab01517af1f12758f0dae956bfd41f8ba51220182bc38e077b3a"
     },
     {
       "path": "artifacts/constants_extraction_inputs.json",
@@ -23,11 +23,11 @@
     },
     {
       "path": "artifacts/constants_registry.json",
-      "sha256": "315301ee491cad1a8321f8c681ef6c3a002d07100d740b072f59483f388f6339"
+      "sha256": "97f62963b3193ba8884d08c72f14ece2c0878e6a7b5286293c335d1ead00fa3b"
     },
     {
       "path": "artifacts/promotion_report.json",
-      "sha256": "7b0da3adfab7cf94103c584972b5a5d4d1d3147d70eb0945cf77ab4730f0388c"
+      "sha256": "f6389a9df7e041f4b95e5029d3e88f04e47241fbb87d17f69ef7dc55e969a5a0"
     },
     {
       "path": "artifacts/stitch_constants.json",
@@ -79,7 +79,7 @@
     },
     {
       "path": "repro/certificate_baseline.json",
-      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+      "sha256": "09a07c1b0d20eff7f6e471c40cad4b00538442790444fd564939a82ca3fe6d91"
     },
     {
       "path": "repro/run_repro.sh",

@@ -1,1 +1,78 @@
-{}
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "LGC_G1": [],
+    "LGC_G2": [],
+    "LGC_G3": [],
+    "LGC_G4": [],
+    "LGC_G5": [],
+    "LGC_G6": [],
+    "LGC_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8038585209003215
+  },
+  "gates": {
+    "LGC_G1": "PASS",
+    "LGC_G2": "PASS",
+    "LGC_G3": "PASS",
+    "LGC_G4": "PASS",
+    "LGC_G5": "PASS",
+    "LGC_G6": "PASS",
+    "LGC_GM": "PASS"
+  },
+  "inputs": {
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8038585209003215,
+    "kappa_compatibility": 1.0940320000000001,
+    "reciprocity_transfer": 1.03157,
+    "rho_rigidity": 1.079,
+    "sigma_localglobal": 1.075,
+    "sigma_star_can": 1.054
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-05-09T22:39:10+00:00",
+    "framework": "local_global_langlands_compatibility"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}
