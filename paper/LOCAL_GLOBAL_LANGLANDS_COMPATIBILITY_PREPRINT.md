@@ -53,6 +53,21 @@ with `Q_rem X_super` represented by the defect and coherence ledgers tracked in 
 
 ---
 
+
+### 1.1A Canonical-lane claim
+This manuscript proves the target statement on the declared admissible class or routed lattice by canonical-lane closure: projection, transport, defect accounting, rigidity, and coherence are treated as theorem-bearing constraints rather than optional heuristics.
+
+### 1.1B Bridge / equivalence statement
+The canonical endpoint objects are tied to the standard problem-side target through the in-repo bridge package. The paper records the transfer or endpoint-identification step in the main theorem chain, and `notes/IDENTIFICATION_BRIDGE.md` fixes the determining-class lock in ordinary mathematical language.
+
+### 1.1C Verification surface
+A reviewer can check this claim on four surfaces:
+
+1. the standard target statement in Section `1.1`,
+2. the canonical objects and closure gates in the main paper,
+3. the endpoint bridge in `notes/IDENTIFICATION_BRIDGE.md`,
+4. the executable rerun `bash repro/run_repro.sh` with runtime output `repro/certificate_runtime.json`.
+
 ## 2. Epistemic Axiom Map (A1-A8)
 
 | Axiom | Super-repo interpretation |
