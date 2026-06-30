@@ -207,4 +207,4 @@ Pass condition:
 
 1. R. P. Langlands, *Problems in the theory of automorphic forms*, in *Lectures in Modern Analysis and Applications III*, Springer, 1970.
 2. M. Harris and R. Taylor, *The Geometry and Cohomology of Some Simple Shimura Varieties*, Annals of Math. Studies 151, 2001.
-3. P. Scholze, surveys and papers on local-global compatibility and the Langlands program.
+3. P. Scholze, *On torsion in the cohomology of locally symmetric varieties*, Ann. of Math. 182 (2015), 945-1066. DOI: `10.4007/annals.2015.182.3.3`
